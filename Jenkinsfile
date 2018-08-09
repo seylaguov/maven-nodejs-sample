@@ -1,8 +1,8 @@
 node ('master') {
 
 	environment {
-		JAVA_HOME	= '/devops_tools/java/jdk'
-		JRE_HOME    = '/devops_tools/java/jre'
+		JAVA_HOME   = '/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.181-3.b13.el7_5.x86_64'
+		JRE_HOME    = '/usr/lib/jvm/jre'
 	}
 
 	//sh 'printenv'
